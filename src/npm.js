@@ -4,5 +4,8 @@ export const NPM = {
   },
   load (npmOptions, error) {
     throw new Error('Not implemented');
+  },
+  ls (npmOptions) {
+    throw new Error('Not implemented');
   }
 }

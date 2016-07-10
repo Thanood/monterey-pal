@@ -9,5 +9,8 @@ var NPM = exports.NPM = {
   },
   load: function load(npmOptions, error) {
     throw new Error('Not implemented');
+  },
+  ls: function ls(npmOptions) {
+    throw new Error('Not implemented');
   }
 };
