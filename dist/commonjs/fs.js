@@ -13,6 +13,12 @@ var FS = exports.FS = {
   showOpenDialog: function showOpenDialog(config) {
     throw new Error('Not implemented');
   },
+  normalize: function normalize(path) {
+    throw new Error('Not implemented');
+  },
+  writeFile: function writeFile(path, content) {
+    throw new Error('Not implemented');
+  },
   getDirName: function getDirName(p) {
     throw new Error('Not implemented');
   },
@@ -23,6 +29,9 @@ var FS = exports.FS = {
     throw new Error('Not implemented');
   },
   getTempFile: function getTempFile() {
+    throw new Error('Not implemented');
+  },
+  getRootDir: function getRootDir() {
     throw new Error('Not implemented');
   },
   getTempFolder: function getTempFolder() {

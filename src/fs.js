@@ -11,6 +11,14 @@ export const FS = {
     throw new Error('Not implemented');
   },
 
+  normalize(path) {
+    throw new Error('Not implemented');
+  },
+
+  writeFile(path, content) {
+    throw new Error('Not implemented');
+  },
+
   getDirName(p) {
     throw new Error('Not implemented');
   },
@@ -24,6 +32,10 @@ export const FS = {
   },
 
   getTempFile() {
+    throw new Error('Not implemented');
+  },
+
+  getRootDir() {
     throw new Error('Not implemented');
   },
 
