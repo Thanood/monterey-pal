@@ -16,7 +16,7 @@ var JSPM = exports.JSPM = {
   getJSPMRootPath: function getJSPMRootPath(projectPath) {
     throw new Error('Not implemented');
   },
-  getConfig: function getConfig(projectPath, packageJSONPath) {
+  getConfig: function getConfig(options) {
     throw new Error('Not implemented');
   },
   getForks: function getForks(config, options) {

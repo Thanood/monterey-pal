@@ -22,6 +22,12 @@ var FS = exports.FS = {
   getDirName: function getDirName(p) {
     throw new Error('Not implemented');
   },
+  unzip(zipPath, outPath) {
+    throw new Error('Not implemented');
+  },
+  move(from, to) {
+    throw new Error('Not implemented');
+  },
   getFolderPath: function getFolderPath(p) {
     throw new Error('Not implemented');
   },
