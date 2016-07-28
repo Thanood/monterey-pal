@@ -7,6 +7,10 @@ export const FS = {
     throw new Error('Not implemented');
   },
 
+  folderExists(p) {
+    throw new Error('Not implemented');
+  },
+
   showOpenDialog(config) {
     throw new Error('Not implemented');
   },

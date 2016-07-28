@@ -10,6 +10,9 @@ var FS = exports.FS = {
   fileExists: function fileExists(p) {
     throw new Error('Not implemented');
   },
+  folderExists: function folderExists(p) {
+    throw new Error('Not implemented');
+  },
   showOpenDialog: function showOpenDialog(config) {
     throw new Error('Not implemented');
   },
@@ -20,12 +23,6 @@ var FS = exports.FS = {
     throw new Error('Not implemented');
   },
   getDirName: function getDirName(p) {
-    throw new Error('Not implemented');
-  },
-  unzip(zipPath, outPath) {
-    throw new Error('Not implemented');
-  },
-  move(from, to) {
     throw new Error('Not implemented');
   },
   getFolderPath: function getFolderPath(p) {
