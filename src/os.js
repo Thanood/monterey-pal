@@ -13,5 +13,14 @@ export const OS = {
   },
   getElectronVersion() {
     throw new Error('Not implemented');
+  },
+  spawn(cmd, args) {
+    throw new Error('Not implemented');
+  },
+  exec(cmd, args) {
+    throw new Error('Not implemented');
+  },
+  kill(process) {
+    throw new Error('Not implemented');
   }
 }

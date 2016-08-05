@@ -18,5 +18,14 @@ var OS = exports.OS = {
   },
   getElectronVersion: function getElectronVersion() {
     throw new Error('Not implemented');
+  },
+  spawn: function spawn(cmd, args) {
+    throw new Error('Not implemented');
+  },
+  exec: function exec(cmd, args) {
+    throw new Error('Not implemented');
+  },
+  kill: function kill(process) {
+    throw new Error('Not implemented');
   }
 };
