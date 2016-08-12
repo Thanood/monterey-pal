@@ -22,5 +22,8 @@ export const OS = {
   },
   kill(process) {
     throw new Error('Not implemented');
+  },
+  getEnv(key) {
+    throw new Error('Not implemented');
   }
 }

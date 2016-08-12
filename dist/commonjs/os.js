@@ -27,5 +27,8 @@ var OS = exports.OS = {
   },
   kill: function kill(process) {
     throw new Error('Not implemented');
+  },
+  getEnv: function getEnv(key) {
+    throw new Error('Not implemented');
   }
 };

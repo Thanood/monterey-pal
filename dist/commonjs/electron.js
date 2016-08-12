@@ -6,5 +6,11 @@ Object.defineProperty(exports, "__esModule", {
 var ELECTRON = exports.ELECTRON = {
   getIpcRenderer: function getIpcRenderer() {
     throw new Error('Not implemented');
+  },
+  getPty: function getPty() {
+    throw new Error('Not implemented');
+  },
+  getxTerm: function getxTerm() {
+    throw new Error('Not implemented');
   }
 };
