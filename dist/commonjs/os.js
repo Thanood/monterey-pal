@@ -30,5 +30,8 @@ var OS = exports.OS = {
   },
   getEnv: function getEnv(key) {
     throw new Error('Not implemented');
+  },
+  openItem: function openItem(path) {
+    throw new Error('Not implemented');
   }
 };

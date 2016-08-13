@@ -51,5 +51,8 @@ var FS = exports.FS = {
   },
   _downloadFile: function _downloadFile(stream, url, targetPath) {
     throw new Error('Not implemented');
+  },
+  createFolder: function createFolder(p) {
+    throw new Error('Not implemented');
   }
 };

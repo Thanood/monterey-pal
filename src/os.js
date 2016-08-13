@@ -25,5 +25,8 @@ export const OS = {
   },
   getEnv(key) {
     throw new Error('Not implemented');
+  },
+  openItem(path) {
+    throw new Error('Not implemented');
   }
 }

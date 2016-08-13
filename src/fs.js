@@ -61,5 +61,9 @@ export const FS = {
 
   _downloadFile(stream, url, targetPath) {
     throw new Error('Not implemented');
+  },
+
+  createFolder(p) {
+    throw new Error('Not implemented');
   }
 }
