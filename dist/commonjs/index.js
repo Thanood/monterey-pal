@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.ELECTRON = exports.OS = exports.JSPM = exports.NPM = exports.PROCESSES = exports.SESSION = exports.FS = exports.AURELIACLI = undefined;
+exports.ELECTRON = exports.OS = exports.JSPM = exports.NPM = exports.SESSION = exports.FS = exports.AURELIACLI = undefined;
 
 var _aureliaCli = require('./aurelia-cli');
 
@@ -29,15 +29,6 @@ Object.defineProperty(exports, 'SESSION', {
   enumerable: true,
   get: function get() {
     return _session.SESSION;
-  }
-});
-
-var _processes = require('./processes');
-
-Object.defineProperty(exports, 'PROCESSES', {
-  enumerable: true,
-  get: function get() {
-    return _processes.PROCESSES;
   }
 });
 
@@ -90,5 +81,5 @@ function initializePAL(callback) {
     };
   }
 
-  callback(_fs.FS, _session.SESSION, _aureliaCli.AURELIACLI, _processes.PROCESSES, _npm.NPM, _jspm.JSPM, _os.OS, _electron.ELECTRON);
+  callback(_fs.FS, _session.SESSION, _aureliaCli.AURELIACLI, _npm.NPM, _jspm.JSPM, _os.OS, _electron.ELECTRON);
 }
