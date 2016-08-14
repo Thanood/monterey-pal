@@ -12,5 +12,11 @@ var NPM = exports.NPM = {
   },
   ls: function ls(npmOptions) {
     throw new Error('Not implemented');
+  },
+  getConfig: function getConfig(setting) {
+    throw new Error('Not implemented');
+  },
+  setConfig: function setConfig(setting, value) {
+    throw new Error('Not implemented');
   }
 };

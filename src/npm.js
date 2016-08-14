@@ -7,5 +7,11 @@ export const NPM = {
   },
   ls (npmOptions) {
     throw new Error('Not implemented');
+  },
+  getConfig (setting) {
+    throw new Error('Not implemented');
+  },
+  setConfig (setting, value) {
+    throw new Error('Not implemented');
   }
 }
