@@ -14,5 +14,9 @@ export const SESSION = {
 
   has(key) {
     throw new Error('Not implemented');
+  },
+
+  getEnv() {
+    throw new Error('Not implemented');
   }
 }

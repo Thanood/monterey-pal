@@ -12,5 +12,8 @@ var ELECTRON = exports.ELECTRON = {
   },
   getxTerm: function getxTerm() {
     throw new Error('Not implemented');
+  },
+  getPath: function getPath(name) {
+    throw new Error('Not implemented');
   }
 };

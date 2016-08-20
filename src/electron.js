@@ -7,5 +7,8 @@ export const ELECTRON = {
   },
   getxTerm() {
     throw new Error('Not implemented');
+  },
+  getPath(name) {
+    throw new Error('Not implemented');
   }
 }
