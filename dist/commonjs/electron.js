@@ -15,5 +15,8 @@ var ELECTRON = exports.ELECTRON = {
   },
   getPath: function getPath(name) {
     throw new Error('Not implemented');
+  },
+  getGlobal: function getGlobal(name) {
+    throw new Error('Not implemented');
   }
 };

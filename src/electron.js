@@ -10,5 +10,8 @@ export const ELECTRON = {
   },
   getPath(name) {
     throw new Error('Not implemented');
+  },
+  getGlobal(name) {
+    throw new Error('Not implemented');
   }
 }
