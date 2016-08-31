@@ -10,6 +10,27 @@ var FS = exports.FS = {
   fileExists: function fileExists(p) {
     throw new Error('Not implemented');
   },
+  access: function access(p, flags) {
+    throw new Error('Not implemented');
+  },
+  getConstants: function getConstants() {
+    throw new Error('Not implemented');
+  },
+  readdir: function readdir(p) {
+    throw new Error('Not implemented');
+  },
+  unlink: function unlink(p) {
+    throw new Error('Not implemented');
+  },
+  stat: function stat(p) {
+    throw new Error('Not implemented');
+  },
+  mkdir: function mkdir(p) {
+    throw new Error('Not implemented');
+  },
+  appendFile: function appendFile(p, text) {
+    throw new Error('Not implemented');
+  },
   folderExists: function folderExists(p) {
     throw new Error('Not implemented');
   },

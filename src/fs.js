@@ -7,6 +7,34 @@ export const FS = {
     throw new Error('Not implemented');
   },
 
+  access(p, flags) {
+    throw new Error('Not implemented');
+  },
+
+  getConstants() {
+    throw new Error('Not implemented');
+  },
+
+  readdir(p) {
+    throw new Error('Not implemented');
+  },
+
+  unlink(p) {
+    throw new Error('Not implemented');
+  },
+
+  stat(p) {
+    throw new Error('Not implemented');
+  },
+
+  mkdir(p) {
+    throw new Error('Not implemented');
+  },
+
+  appendFile(p, text) {
+    throw new Error('Not implemented');
+  },
+
   folderExists(p) {
     throw new Error('Not implemented');
   },
