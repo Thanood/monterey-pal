@@ -5,12 +5,6 @@ export const JSPM = {
   downloadLoader(options) {
     throw new Error('Not implemented');
   },
-  isJspmInstalled(projectPath) {
-    throw new Error('Not implemented');
-  },
-  getJSPMRootPath(projectPath) {
-    throw new Error('Not implemented');
-  },
   getConfig(projectPath, packageJSONPath) {
     throw new Error('Not implemented');
   },

@@ -71,6 +71,10 @@ export const FS = {
     throw new Error('Not implemented');
   },
 
+  getGlobalNodeModulesPath() {
+    throw new Error('Not implemented');
+  },
+
   getTempFolder() {
     throw new Error('Not implemented');
   },

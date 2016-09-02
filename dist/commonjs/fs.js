@@ -58,6 +58,9 @@ var FS = exports.FS = {
   getRootDir: function getRootDir() {
     throw new Error('Not implemented');
   },
+  getGlobalNodeModulesPath: function getGlobalNodeModulesPath() {
+    throw new Error('Not implemented');
+  },
   getTempFolder: function getTempFolder() {
     throw new Error('Not implemented');
   },
