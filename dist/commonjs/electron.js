@@ -3,20 +3,20 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var NPM = exports.NPM = {
-  install: function install(packages, error) {
+var ELECTRON = exports.ELECTRON = {
+  getIpcRenderer: function getIpcRenderer() {
     throw new Error('Not implemented');
   },
-  load: function load(npmOptions, error) {
+  getPty: function getPty() {
     throw new Error('Not implemented');
   },
-  ls: function ls(npmOptions) {
+  getxTerm: function getxTerm() {
     throw new Error('Not implemented');
   },
-  getConfig: function getConfig(setting) {
+  getPath: function getPath(name) {
     throw new Error('Not implemented');
   },
-  setConfig: function setConfig(setting, value) {
+  getGlobal: function getGlobal(name) {
     throw new Error('Not implemented');
   }
 };

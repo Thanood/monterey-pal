@@ -15,5 +15,8 @@ var SESSION = exports.SESSION = {
   },
   has: function has(key) {
     throw new Error('Not implemented');
+  },
+  getEnv: function getEnv() {
+    throw new Error('Not implemented');
   }
 };

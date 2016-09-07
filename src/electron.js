@@ -1,17 +1,17 @@
-export const NPM = {
-  install (packages, error) {
+export const ELECTRON = {
+  getIpcRenderer() {
     throw new Error('Not implemented');
   },
-  load (npmOptions, error) {
+  getPty() {
     throw new Error('Not implemented');
   },
-  ls (npmOptions) {
+  getxTerm() {
     throw new Error('Not implemented');
   },
-  getConfig (setting) {
+  getPath(name) {
     throw new Error('Not implemented');
   },
-  setConfig (setting, value) {
+  getGlobal(name) {
     throw new Error('Not implemented');
   }
 }

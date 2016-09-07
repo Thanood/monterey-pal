@@ -10,6 +10,12 @@ var JSPM = exports.JSPM = {
   downloadLoader: function downloadLoader(options) {
     throw new Error('Not implemented');
   },
+  isJspmInstalled: function isJspmInstalled(projectPath) {
+    throw new Error('Not implemented');
+  },
+  getJSPMRootPath: function getJSPMRootPath(projectPath) {
+    throw new Error('Not implemented');
+  },
   getConfig: function getConfig(projectPath, packageJSONPath) {
     throw new Error('Not implemented');
   },

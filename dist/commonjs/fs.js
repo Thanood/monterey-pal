@@ -10,6 +10,30 @@ var FS = exports.FS = {
   fileExists: function fileExists(p) {
     throw new Error('Not implemented');
   },
+  access: function access(p, flags) {
+    throw new Error('Not implemented');
+  },
+  getConstants: function getConstants() {
+    throw new Error('Not implemented');
+  },
+  readdir: function readdir(p) {
+    throw new Error('Not implemented');
+  },
+  unlink: function unlink(p) {
+    throw new Error('Not implemented');
+  },
+  stat: function stat(p) {
+    throw new Error('Not implemented');
+  },
+  mkdir: function mkdir(p) {
+    throw new Error('Not implemented');
+  },
+  appendFile: function appendFile(p, text) {
+    throw new Error('Not implemented');
+  },
+  folderExists: function folderExists(p) {
+    throw new Error('Not implemented');
+  },
   showOpenDialog: function showOpenDialog(config) {
     throw new Error('Not implemented');
   },
@@ -34,6 +58,9 @@ var FS = exports.FS = {
   getRootDir: function getRootDir() {
     throw new Error('Not implemented');
   },
+  getGlobalNodeModulesPath: function getGlobalNodeModulesPath() {
+    throw new Error('Not implemented');
+  },
   getTempFolder: function getTempFolder() {
     throw new Error('Not implemented');
   },
@@ -47,6 +74,9 @@ var FS = exports.FS = {
     throw new Error('Not implemented');
   },
   _downloadFile: function _downloadFile(stream, url, targetPath) {
+    throw new Error('Not implemented');
+  },
+  createFolder: function createFolder(p) {
     throw new Error('Not implemented');
   }
 };
